@@ -6,22 +6,15 @@ export default function Navbar({ onToggleDark }: { onToggleDark: () => void }) {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16 items-center">
           <div className="flex-shrink-0 flex items-center gap-2">
--            <span className="w-6 h-6 bg-gradient-to-br from-emerald-500 to-teal-500 rounded-full" aria-label="brand-icon" />
--            <Link to="/" className="text-xl md:text-2xl font-extrabold tracking-tight text-emerald-600">NexaIT NI</Link>
-+            <span className="w-6 h-6 bg-gradient-to-br from-emerald-500 to-teal-500 rounded-full" aria-label="brand-icon" />
-+            <Link to="/" className="text-xl md:text-2xl font-extrabold tracking-tight text-emerald-600">NexaIT NI</Link>
+            <span className="w-6 h-6 bg-gradient-to-br from-emerald-500 to-teal-500 rounded-full" aria-label="brand-icon" />
+            <Link to="/" className="text-xl md:text-2xl font-extrabold tracking-tight text-emerald-600">NexaIT NI</Link>
           </div>
           <div className="hidden md:flex items-center space-x-6">
--            <Link to="/" className="text-sm font-medium text-gray-700 hover:text-blue-600">Home</Link>
--            <Link to="/services" className="text-sm font-medium text-gray-700 hover:text-blue-600">Services</Link>
--            <Link to="/pricing" className="text-sm font-medium text-gray-700 hover:text-blue-600">Pricing</Link>
--            <Link to="/about" className="text-sm font-medium text-gray-700 hover:text-blue-600">About</Link>
--            <Link to="/contact" className="text-sm font-medium text-gray-700 hover:text-blue-600">Contact</Link>
-+            <Link to="/" className="text-sm font-medium text-gray-700 hover:text-emerald-600">Home</Link>
-+            <Link to="/services" className="text-sm font-medium text-gray-700 hover:text-emerald-600">Services</Link>
-+            <Link to="/pricing" className="text-sm font-medium text-gray-700 hover:text-emerald-600">Pricing</Link>
-+            <Link to="/about" className="text-sm font-medium text-gray-700 hover:text-emerald-600">About</Link>
-+            <Link to="/contact" className="text-sm font-medium text-gray-700 hover:text-emerald-600">Contact</Link>
+            <Link to="/" className="text-sm font-medium text-gray-700 hover:text-emerald-600">Home</Link>
+            <Link to="/services" className="text-sm font-medium text-gray-700 hover:text-emerald-600">Services</Link>
+            <Link to="/pricing" className="text-sm font-medium text-gray-700 hover:text-emerald-600">Pricing</Link>
+            <Link to="/about" className="text-sm font-medium text-gray-700 hover:text-emerald-600">About</Link>
+            <Link to="/contact" className="text-sm font-medium text-gray-700 hover:text-emerald-600">Contact</Link>
           </div>
           <div className="flex items-center">
             <button aria-label="Toggle dark mode" onClick={onToggleDark} className="p-2 rounded-full bg-gray-100 hover:bg-gray-200 dark:bg-gray-800 dark:hover:bg-gray-700 transition">
