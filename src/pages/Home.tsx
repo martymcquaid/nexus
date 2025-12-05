@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom'
+
 export default function Home() {
   return (
     <section className="pt-12 px-4">
@@ -9,8 +11,8 @@ export default function Home() {
             empower your organization with resilient technology and expert engineering.
           </p>
           <div className="flex flex-wrap gap-4">
-            <a href="/contact" className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-xl shadow-md transition">Get in touch</a>
-            <a href="/services" className="bg-white text-blue-600 border border-blue-600 px-6 py-3 rounded-xl hover:bg-blue-50 transition">Our Services</a>
+            <Link to="/contact" className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-xl shadow-md transition">Get in touch</Link>
+            <Link to="/services" className="bg-white text-blue-600 border border-blue-600 px-6 py-3 rounded-xl hover:bg-blue-50 transition">Our Services</Link>
           </div>
         </div>
         <div className="hidden md:block">
