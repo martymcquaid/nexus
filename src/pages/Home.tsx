@@ -1,5 +1,3 @@
-import React from 'react'
-
 export default function Home() {
   return (
     <section className="pt-12 px-4">
