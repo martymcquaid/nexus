@@ -1,8 +1,8 @@
 import React from 'react'
 import Navbar from './Navbar'
-import Footer from './Footer'
-import CookieBanner from './CookieBanner'
-import ChatWidget from './ChatWidget'
+import Footer from './Footer.tsx'
+import CookieBanner from './CookieBanner.tsx'
+import ChatWidget from './ChatWidget.tsx'
 
 export default function Layout({ children }: { children: React.ReactNode }) {
   // Theme toggle is handled by a global toggle in Navbar; implement a simple dispatch via window for this demo
